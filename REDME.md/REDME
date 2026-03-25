@@ -1,0 +1,109 @@
+Pipeline de dados com PostgreSQL simulando ambiente real de fintech# 🚨 Fraud Detection System
+
+## 📌 Sobre o Projeto
+
+Sistema completo de detecção de fraudes simulando o ambiente de uma fintech, com pipeline de dados, API em tempo real e dashboard interativo.
+
+---
+
+## 🎯 Objetivo
+
+Identificar transações suspeitas com base em regras de negócio e fornecer visualização em tempo real para análise.
+
+---
+
+## 🧠 Funcionalidades
+
+* 🔄 Geração e tratamento de dados (ETL)
+* 🧮 Motor de detecção de fraude (regras + score)
+* 🌐 API REST para análise em tempo real
+* 📊 Dashboard interativo com atualização automática
+* 🧠 Insights automáticos baseados nos dados
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+* Python
+* Pandas
+* SQL
+* Flask
+* Streamlit
+
+---
+
+## 🚀 Como Executar
+
+### 1. Clonar o repositório
+
+```
+git clone https://github.com/seu-usuario/fraud-detection.git
+cd fraud-detection
+```
+
+### 2. Criar ambiente virtual
+
+```
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Instalar dependências
+
+```
+pip install -r requirements.txt
+```
+
+### 4. Rodar API
+
+```
+python api/app.py
+```
+
+### 5. Rodar Dashboard
+
+```
+streamlit run dashboard/app.py
+```
+
+---
+
+## 📊 Dashboard
+
+O dashboard apresenta:
+
+* Total de transações
+* Volume de fraudes
+* Distribuição por país
+* Evolução temporal
+* Lista de transações suspeitas
+
+---
+
+## 🧠 Insights
+
+O sistema identifica automaticamente padrões de risco e alerta quando há aumento significativo de fraudes.
+
+---
+
+## 🏆 Diferenciais
+
+* Arquitetura semelhante a sistemas reais
+* Integração entre API e visualização
+* Simulação de ambiente de produção
+* Foco em análise e tomada de decisão
+
+---
+
+## 📌 Próximos Passos
+
+* Integração com PostgreSQL
+* Deploy em nuvem
+* Implementação de Machine Learning
+* Detecção de fraude em tempo real
+
+---
+
+## 👨‍💻 Autor
+
+Jonatas Soares
