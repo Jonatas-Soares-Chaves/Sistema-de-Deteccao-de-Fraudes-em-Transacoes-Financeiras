@@ -1,0 +1,5 @@
+pandas
+streamlit
+streamlit-autorefresh
+flask
+psycopg2-binary

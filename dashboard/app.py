@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd
-from streamlit_autorefresh import st_autorefresh
+import time
 
-# 🔄 auto atualização a cada 5 segundos
-st_autorefresh(interval=5000, key="refresh")
-
+time.sleep(5)
+st.rerun()
 # carregar dados
 df = pd.read_csv("data/transacoes.csv")
 
